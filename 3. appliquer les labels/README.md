@@ -2,7 +2,7 @@
 
 Ce script permet d'appliquer les labels obtenus dans la deuxieme vague
 
-## Fonctionnalités
+## 😱 Fonctionnalités
 
 - **Création de labels Gmail** : Définir des labels personnalisés dans Gmail.
 - **Application de labels aux emails** : Associer des labels à des emails en fonction de leur catégorie.
@@ -14,7 +14,7 @@ Ce script permet d'appliquer les labels obtenus dans la deuxieme vague
   - `autre`
 - **Gestion des emails non catégorisés** : Identifie les emails qui ne correspondent à aucune des catégories définies.
 
-## Prérequis
+## 😳 Prérequis
 
 Avant de commencer, assurez-vous d'avoir :
 
@@ -29,22 +29,22 @@ Avant de commencer, assurez-vous d'avoir :
      pip install -r requirements.txt
      ```
 
-## Installation
+## 🫡 Installation
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-repo.git
-   cd votre-repo
+   git clone hhttps://github.com/solene-drnx/Beemail---public.git
+   cd "3. appliquer les labels"
 2. Placez le fichier credentials.json dans le répertoire principal.
 3. Installez les dépendances :
 ```bash
 pip install -r requirements.txt
 ```
 
-## Utilisation
+## 🤩 Utilisation
 1. Lancez le script principal :
 ```bash
-python main.py
+python3 main.py
 ```
 2. Fonctionnement :
 Le script initialise l'authentification avec l'API Gmail.
@@ -69,7 +69,7 @@ LABELS = {
     ...
 }
 ```
-## Exemple de Résultat
+## 🫣 Exemple de Résultat
 Lors de l'exécution, le script affiche les étapes du traitement :
 ```less
 1/100 - email_id_1 : commercial

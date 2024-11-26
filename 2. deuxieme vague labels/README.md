@@ -2,7 +2,7 @@
 
 Ce script nettoie les labels récupéré apres le premier tour de labels avec l'IA. Il parcourt une liste de labels issus de `1. premiere vague labels`, les analyse à l'aide du modèle Mistral, et génère une sortie catégorisée dans un fichier JSON.
 
-## Fonctionnalités
+## 🥰 Fonctionnalités
 
 - **Analyse de labels** : Le script prend en entrée des labels et les attribue à l'une des catégories suivantes :
   - `commercial`
@@ -17,7 +17,7 @@ Ce script nettoie les labels récupéré apres le premier tour de labels avec l'
   - Thread ID
   - Label catégorisé après analyse (`label_deuxiemeTour`).
 
-## Prérequis
+## 🤓 Prérequis
 
 Avant d'exécuter ce script, assurez-vous d'avoir :
 
@@ -28,11 +28,11 @@ Avant d'exécuter ce script, assurez-vous d'avoir :
 3. Un fichier labels_avant.py contenant les données `LABELS`récupérés depuis firebase
 4. Une clé API valide pour le modèle Mistral.
 
-## Installation
+## 🧐 Installation
 
 1. Clonez ce dépôt ou copiez le script.
 2. Placez votre clé API dans la variable api_key du script.
-3. Vérifiez que le fichier labels_avant.py est structuré comme suit :
+3. Vérifiez que le fichier `labels_avant.py` est structuré comme suit :
 
 ```python
 LABELS = {
@@ -42,7 +42,7 @@ LABELS = {
 }
 ```
 
-## Utilisation
+## 😝 Utilisation
 1. Lancez le script en exécutant la commande suivante dans votre terminal :
 ```bash
 python main.py
