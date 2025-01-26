@@ -1,5 +1,7 @@
 # 📨 Fichier pour analyser et trier sa boite mail gmail
 
+- https://youtu.be/jFP35_4Y0ic?si=qnrz3SQeU_hVHMns
+
 Coucou, petit projet pour analyser et trier sa boite mail gmail. Le projet est structuré en trois 
 scripts : 
 1. Premiere vague label : établi un premier label sur le mail
